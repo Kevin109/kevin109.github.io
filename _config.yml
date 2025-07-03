@@ -1,4 +1,8 @@
-title: ""
-logo: ""   
-theme: jekyll-theme-minimal
-show_downloads: false
+theme: null
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: custom

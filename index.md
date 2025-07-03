@@ -25,7 +25,7 @@ Learn how to configure and integrate TFT panels with embedded platforms, includi
 ---
 
 
-![RK070CU01 Diagram](../images/AD-1.webp)
+![RK070CU01 Diagram](./images/AD-1.webp)
 ## 🛠 Contributions
 
 We welcome contributions and suggestions. Feel free to submit a pull request or open an issue for bugs, updates, or additional topics you'd like to see.
