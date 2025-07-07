@@ -3,30 +3,30 @@
 Welcome to the official documentation hub for Rocktech’s embedded display and SBC solutions. This site includes configuration guides, hardware integration tutorials, and performance optimization tips for our Rockchip-based SBCs and TFT LCD modules.
 
 ---
+## Install ADB on Windows
 
-![RK070CU01 Diagram](../images/AD-1.webp)
-
-#### 1. Download ADB installation file
+### 1. Download ADB installation file
 It is recommended to use the version 1.0.41
 
 [adb-v1.0.39.zip](../download/adb-v1.0.39.zip) version 1.0.39
 
 [adb-v1.0.41.zip](../download/adb-v1.0.41.zip) version 1.0.41
 
-#### 2. Extract the contents of this ZIP file into an easily accessible folder (such as C:\adb).
-```
+### 2. Extract the contents of this ZIP file into an easily accessible folder (such as C:\adb).
+```text
 C:\adb
  |adb.exe
  |AdbWinApi.dll
  |AdbWinUsbApi.dll
 ```
-#### 3. Set the folder path(D:\adb) to the `PATH` system variable
+### 3. Set the folder path(D:\adb) to the `PATH` system variable
 
+<img src="../images/2023-08-30_151940_3214020.44115000558404527.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 ![](../images/2023-08-30_151940_3214020.44115000558404527.png)
 ![](../images/2023-08-30_151815_0390640.02988313158176603.png)
 
-4. Make sure install ADB succeeded
+### 4. Make sure install ADB succeeded
 Open Command Prompt（cmd） and run command `adb devices`
 
 ![](../images/2023-08-30_152802_9306390.23540734979466404.png)
