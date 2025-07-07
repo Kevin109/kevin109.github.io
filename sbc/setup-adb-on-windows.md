@@ -22,14 +22,12 @@ C:\adb
 ### 3. Set the folder path(D:\adb) to the `PATH` system variable
 
 <img src="../images/2023-08-30_151940_3214020.44115000558404527.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
-
-![](../images/2023-08-30_151940_3214020.44115000558404527.png)
-![](../images/2023-08-30_151815_0390640.02988313158176603.png)
+<img src="../images/2023-08-30_151815_0390640.02988313158176603.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 ### 4. Make sure install ADB succeeded
 Open Command Prompt（cmd） and run command `adb devices`
 
-![](../images/2023-08-30_152802_9306390.23540734979466404.png)
+<img src="../images/2023-08-30_152802_9306390.23540734979466404.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 ## Use ADB on Rocktech Smart Device
 ### 1. Install the driver
@@ -45,12 +43,13 @@ Open Command Prompt（cmd） and run command `adb devices`
 there have two ways to connect to the Smart Device, You can choose any one according to the actual situation.
 ##### 2.1 Connect by USB usb data cable
 	
-&nbsp; &nbsp; ![](../images/2023-08-30_155209_3850890.2329156398027219.png)
-	
+<img src="../images/2023-08-30_155209_3850890.2329156398027219.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
+
 ##### 2.2 Connect by WiFi
 Make sure both the Smart Device and the computer are both are connected to the same WiFi（or router）
 
-![](../images/2023-08-30_163139_9836050.45092418198247275.png)
+<img src="../images/2023-08-30_163139_9836050.45092418198247275.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
+<img src="../images/2023-08-30_163139_9836050.45092418198247275.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 ![](../images/2023-08-30_163309_5508940.6642492226795811.png)
 Connect ADB by WiFi
@@ -58,7 +57,7 @@ Connect ADB by WiFi
 adb connect 10.0.0.89
 ```
 
-![](../images/2023-08-30_164736_0200210.2697552630903599.png)
+<img src="../images/2023-08-30_164736_0200210.2697552630903599.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 ### 3. Push/Pull file
 ##### 3.1 push file to the Smart Device
