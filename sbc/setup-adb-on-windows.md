@@ -4,7 +4,7 @@ Welcome to the official documentation hub for Rocktech’s embedded display and 
 
 ---
 
-![RK070CU01 Diagram](./images/AD-1.webp)
+![RK070CU01 Diagram](../images/AD-1.webp)
 
 #### 1. Download ADB installation file
 It is recommended to use the version 1.0.41
