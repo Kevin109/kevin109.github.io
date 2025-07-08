@@ -7,20 +7,32 @@ Welcome to the official documentation hub for Rocktech’s embedded display and 
 ## 📘 Sections
 
 ### 🧠 Single Board Computers (SBC)
-Explore guides for Rockchip-based SBCs including bootloader setup, UART access, and BSP customization.
 
+Explore Rockchip-based SBC development tutorials, covering bootloader setup, UART access, OTA upgrades, and IP configuration.
 
-- [Set up ADB on Windows by following the tutorial](https://kevin109.github.io/setup-adb-on-windows) 
+---
 
-Setting up ADB (Android Debug Bridge) on a Windows system is essential for developers working with embedded Android platforms such as Rockchip-based SBCs. This tutorial walks you through the step-by-step process of downloading, installing, and configuring ADB to enable USB debugging, firmware flashing, and log access. Whether you’re integrating a TFT LCD module, testing Android firmware, or customizing BSP layers, a reliable ADB setup is the foundation for smooth development and debugging.
+#### 🔌 [Set up ADB on Windows](https://kevin109.github.io/setup-adb-on-windows)  
+_Set up ADB for debugging and firmware updates over USB or Wi-Fi._
 
-- [Upgrade Android OTA File via ADB](https://kevin109.github.io/upgrade-android-ota-via-adb) 
+Setting up ADB (Android Debug Bridge) on Windows is essential for working with Rockchip-based embedded Android systems.  
+This guide walks you through installation, environment setup, and common usage scenarios.
 
-This guide explains how to upgrade an Android-based SBC (Smart Control Panel) using an OTA (update.zip) file via ADB.
+---
 
-- [How to Get the IP Address of Your SBC or Smart Device](https://kevin109.github.io/get-ip-of-SBC) 
+#### 📦 [Upgrade Android OTA via ADB](https://kevin109.github.io/upgrade-android-ota-via-adb)  
+_Install `update.zip` OTA packages directly from your PC._
 
-Knowing the IP address of your device is essential for wireless ADB debugging, SSH access, or connecting to local services. This guide provides two common methods to find the IP address of your Android-based device.
+Learn how to push an OTA file to your Android device via ADB and trigger a system upgrade using broadcast commands.
+
+---
+
+#### 🌐 [Find Device IP Address](https://kevin109.github.io/get-ip-of-SBC)  
+_Get your SBC or smart device IP for ADB over Wi-Fi or SSH._
+
+Includes two easy methods:  
+1. Using ADB shell + `ip addr`  
+2. Navigating Android Settings UI (via app icon, gestures, or system UI)
 
 ---
 
