@@ -1,31 +1,26 @@
 /* 自动生成的代码块样式优化 */
 .language-text.highlighter-rouge {
   background-color: #ffffff;
-  /* border: 0px solid #ffffff;
-  border-radius: 6px; */
+  border-top: 1px solid #ddd;
+  /* border-radius: 6px; */ 
   margin: 1em 0;
   overflow-x: auto;
   font-size: 14px;
-  padding: 0px;
 }
 
 .language-text .highlight {
-  padding: 0px;
   padding: 1px;
-  background: #ffffff;
-  background-color: #ffffff;
 }
 
 .language-text pre {
   margin: 0;
-  background: #ffffff;;
+  background: none;
 }
 
 .language-text code {
-  background: #ffffff;;
+  background: none;
   font-family: Consolas, Monaco, monospace;
-  padding-left: 12px;
-  margin: 0px;
+  padding: 12px;
   font-size: 14px;
   line-height: 1.5;
 }
