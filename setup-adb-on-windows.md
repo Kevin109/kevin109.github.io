@@ -11,12 +11,13 @@ Setting up ADB (Android Debug Bridge) on a Windows system is essential for devel
 Different Windows environments may behave differently with each version of ADB. If one version does not work on your machine, try the other.
 
 [adb-v1.0.39.zip](/download/adb-v1.0.39.zip) version 1.0.39 - Alternative version in case of compatibility issues
+
 [adb-v1.0.41.zip](/download/adb-v1.0.41.zip) version 1.0.41 - Tested and works in most cases
 
 ⚠️ Note: The most suitable version depends on your system environment. We suggest starting with v1.0.41.
 
 ### 2. Extract the ZIP File
-Unzip the downloaded package to a simple and accessible location — we recommend C:\adb for convenience.
+Unzip the downloaded package to a simple and accessible location — we recommend `C:\adb` for convenience.
 Your folder structure should look like this:
 
 ```text
@@ -34,9 +35,11 @@ To use ADB from any command prompt, you need to add its folder (e.g., D:\adb) to
 	2.	In the System Properties window, click the “Environment Variables…” button.
 	3.	Under System variables, find and select Path, then click Edit….
 	4.	Click New and enter the full path to your ADB folder, such as:
+
     ```text
     D:\adb
     ```
+
     5.	Click OK to save and close all windows.
 
 <img src="/images/2023-08-30_151940_3214020.44115000558404527.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
@@ -46,14 +49,17 @@ To use ADB from any command prompt, you need to add its folder (e.g., D:\adb) to
 To confirm ADB is installed correctly:
 	1.	Press Win + R, type cmd, and press Enter to open the Command Prompt.
 	2.	In the terminal, run the following command:
-      ```bash
+
+    ```bash
     adb devices
     ```
+
     3.	If ADB is set up properly, you’ll see a list of connected devices (or an empty list if no device is connected yet), like below:
 
 Open Command Prompt（cmd） and run command `adb devices`
 
 <img src="/images/2023-08-30_152802_9306390.23540734979466404.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
+
 ✅ Tip: If you see a message like adb is not recognized as an internal or external command, double-check your system PATH setting from Step 3.
 
 ## Use ADB on Rocktech Smart Devices or Embedded SBCs
@@ -62,15 +68,20 @@ To connect Rocktech devices via ADB, you’ll need to install the appropriate US
 #### ✅For Rockchip-based Devices
 If your Rocktech product is based on one of the following SoCs:
 - PX30, RK3308, RK3288, RK3566, RK3568, RK3399
+
 Or if you’re using a Rocktech Smart Control Panel, such as:
 - RK-A4E, RK-A4ES, RK-A4EPL, RK-A6E, RK-A10E,RK-T10E
+
 Download and install the official Rockchip USB driver:
+
 [Rockchip USB Driver.zip](/download/Rockchip_USB_Driver.zip)
 
-✅ For Allwinner-based Devices
+#### ✅ For Allwinner-based Devices
 If your device uses the following SoCs:
-A23, A33, A64, A83T, H8, R16, R528
+- A23, A33, A64, A83T, H8, R16, R528
+
 Download and install the official Allwinner USB driver:
+
 [Allwinner USB Driver.zip](/download/Allwinner_USB_Driver.zip)
 
 ### 2. Connect to the Smart Device 
@@ -83,7 +94,7 @@ Ensure the device is powered on and connected to your PC using a USB data cable.
 Make sure both your Smart Device and PC are connected to the same local Wi-Fi network (same router or subnet).
 
 <img src="/images/2023-08-30_163139_9836050.45092418198247275.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
-<img src="/images/2023-08-30_163309_5508940.6642492226795811" alt="Environment setup" style="max-width: 100%; height: auto;" />
+<img src="/images/2023-08-30_163309_5508940.6642492226795811.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
 
 Use the following command to connect ADB over Wi-Fi (replace the IP address with your device’s actual IP):
 ```bash
