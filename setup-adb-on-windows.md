@@ -1,10 +1,9 @@
 ---
-title: "Set up ADB on Windows by following the tutorial"
+title: "Set up ADB on Windows by following the tutorial?"
+seo_title: "Set up ADB on Windows by following the tutorial"
 description: "Step-by-step tutorial on installing and configuring ADB on Windows for Rockchip-based SBCs and smart devices."
+date: 2025-06-22
 keywords: ["ADB", "Rockchip", "SBC", "Android Debug Bridge", "Smart Device"]
-date: 2025-07-08
-publishDate: 2025-07-08
-slug: "setup-adb-on-windows"
 ---
 
 [🏠 Home](https://kevin109.github.io/)

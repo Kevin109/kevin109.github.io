@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
-  <meta name="description" content="{{ .Params.description }}">
-  <meta name="keywords" content="{{ delimit .Params.keywords " , " }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+  
   <style>
     body {
       font-family: sans-serif;
