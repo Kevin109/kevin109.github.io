@@ -1,7 +1,7 @@
 /* 自动生成的代码块样式优化 */
-.language-text.highlighter-rouge {
-  background-color: #ffffff;
-  border-top: 1px solid #ddd;
+.language-text .language-bash  .highlighter-rouge {
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd !important;
   /* border-radius: 6px; */ 
   margin: 1em 0;
   overflow-x: auto;
