@@ -49,6 +49,9 @@ am broadcast -a com.smatek.ota.download.complete --es com.smatek.ota.download.pa
 ```
 ✅ Note: Replace the OTA path if you used a different location or filename.
 
+<img src="/images/OTA-upgrade-command.png" alt="OTA-upgrade-command" style="max-width: 100%; height: auto;" />
+<img src="/images/OTA-upgrade.png" alt="A4ES-WIFI-IP-Address" style="max-width: 100%; height: auto;" />
+
 ## Result
 
 After the broadcast, the device should begin processing the update. You may observe a reboot or system update UI depending on your firmware integration.
