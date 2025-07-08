@@ -6,21 +6,25 @@
   margin: 1em 0;
   overflow-x: auto;
   font-size: 14px;
+  padding: 0px;
 }
 
 .language-text .highlight {
+  padding: 0px;
   padding: 1px;
+  background: #ffffff;
 }
 
 .language-text pre {
   margin: 0;
-  background: none;
+  background: #ffffff;;
 }
 
 .language-text code {
-  background: none;
+  background: #ffffff;;
   font-family: Consolas, Monaco, monospace;
-  padding: 12px;
+  padding-left: 12px;
+  margin: 0px;
   font-size: 14px;
   line-height: 1.5;
 }
