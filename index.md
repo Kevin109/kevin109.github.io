@@ -9,6 +9,9 @@ Welcome to the official documentation hub for Rocktech’s embedded display and 
 ### 🧠 Single Board Computers (SBC)
 Explore guides for Rockchip-based SBCs including bootloader setup, UART access, and BSP customization.
 
+
+- [Set up ADB on Windows](https://kevin109.github.io/setup-adb-on-windows) 
+
 ---
 
 ### 📺 TFT LCD Displays
@@ -25,7 +28,6 @@ Learn how to configure and integrate TFT panels with embedded platforms, includi
 ---
 
 
-![RK070CU01 Diagram](./images/AD-1.webp)
 ## 🛠 Contributions
 
 We welcome contributions and suggestions. Feel free to submit a pull request or open an issue for bugs, updates, or additional topics you'd like to see.
