@@ -1,3 +1,12 @@
+---
+title: "Set up ADB on Windows by following the tutorial"
+description: "Step-by-step tutorial on installing and configuring ADB on Windows for Rockchip-based SBCs and smart devices."
+keywords: ["ADB", "Rockchip", "SBC", "Android Debug Bridge", "Smart Device"]
+date: 2025-07-08
+publishDate: 2025-07-08
+slug: "setup-adb-on-windows"
+---
+
 [🏠 Home](https://kevin109.github.io/)
 
 # Set up ADB on Windows by following the tutorial
@@ -58,6 +67,7 @@ Open Command Prompt（cmd） and run command `adb devices`
 
 ✅ Tip: If you see a message like adb is not recognized as an internal or external command, double-check your system PATH setting from Step 3.
 
+---
 ## Use ADB on Rocktech Smart Devices or Embedded SBCs
 To connect Rocktech devices via ADB, you’ll need to install the appropriate USB driver based on the SoC (System on Chip) used in your device.
 ### 1. Install the driver

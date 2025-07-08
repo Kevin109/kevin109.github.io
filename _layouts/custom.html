@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>{{ .Title }}</title>
+  <meta name="description" content="{{ .Params.description }}">
+  <meta name="keywords" content="{{ delimit .Params.keywords " , " }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .code-block {
+      position: relative;
+      background: #f5f5f5;
+      border-radius: 8px;
+      overflow: auto;
+      margin: 1em 0;
+      border-left: 4px solid #4caf50;
+    }
+
+    .code-header {
+      background: #e0e0e0;
+      padding: 6px 12px;
+      font-size: 14px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .code-header span {
+      font-family: monospace;
+    }
+
+    .copy-button {
+      background: #007bff;
+      border: none;
+      color: white;
+      padding: 2px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .copy-button:hover {
+      background: #0056b3;
+    }
+
+    .code-content {
+      padding: 12px;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 14px;
+      white-space: pre;
+    }
   </style>
   <link rel="stylesheet" href="/css/custom.css">
 </head>
+
 <body>
   {{ content }}
+  <script>
+    function copyCode(id) {
+      const code = document.getElementById(id).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Copied!");
+      });
+    }
+  </script>
 </body>
+
 </html>
