@@ -35,11 +35,9 @@ To use ADB from any command prompt, you need to add its folder (e.g., D:\adb) to
 2.	In the System Properties window, click the “Environment Variables…” button.
 3.	Under System variables, find and select Path, then click Edit….
 4.	Click New and enter the full path to your ADB folder, such as:
-
 ```text
 D:\adb
 ```
-
 5.	Click OK to save and close all windows.
 
 <img src="/images/2023-08-30_151940_3214020.44115000558404527.png" alt="Environment setup" style="max-width: 100%; height: auto;" />
@@ -49,11 +47,9 @@ D:\adb
 To confirm ADB is installed correctly:
 1.	Press Win + R, type cmd, and press Enter to open the Command Prompt.
 2.	In the terminal, run the following command:
-
 ```bash
 adb devices
 ```
-
 3.	If ADB is set up properly, you’ll see a list of connected devices (or an empty list if no device is connected yet), like below:
 
 Open Command Prompt（cmd） and run command `adb devices`
