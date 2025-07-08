@@ -1,19 +1,62 @@
-
-pre {
-  background-color: #f5f5f5;
-  padding: 1em;
-  border-radius: 8px;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 14px;
+/* 自动生成的代码块样式优化 */
+.language-text.highlighter-rouge {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 1em 0;
   overflow-x: auto;
+  font-size: 14px;
+}
+
+.language-text .highlight {
+  padding: 1px;
+}
+
+.language-text pre {
+  margin: 0;
+  background: none;
+}
+
+.language-text code {
+  background: f8f8f8;
+  font-family: Consolas, Monaco, monospace;
+  padding: 12px;
+  font-size: 14px;
   line-height: 1.5;
+}
+
+/* 包裹代码块的容器 */
+.code-block-wrapper {
+  position: relative;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin: 1.5em 0;
+  padding-top: 2em;
+}
+
+/* 原始代码块内部样式 */
+.code-block-wrapper pre {
+  margin: 0;
+  padding: 1em;
+  overflow-x: auto;
+  background: none;
+}
+
+/* 复制按钮 */
+.copy-button {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 12px;
+  cursor: pointer;
   color: #333;
 }
 
-code {
-  background: none;
-  padding: 0;
-  font-family: inherit;
-  font-size: inherit;
+.copy-button:hover {
+  background-color: #ccc;
 }
-
