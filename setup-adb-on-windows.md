@@ -1,3 +1,5 @@
+[🏠 Home](https://kevin109.github.io/)
+
 # Set up ADB on Windows by following the tutorial
 
 Setting up ADB (Android Debug Bridge) on a Windows system is essential for developers working with embedded Android platforms such as Rockchip-based SBCs. This tutorial walks you through the step-by-step process of downloading, installing, and configuring ADB to enable USB debugging, firmware flashing, and log access. Whether you’re integrating a TFT LCD module, testing Android firmware, or customizing BSP layers, a reliable ADB setup is the foundation for smooth development and debugging.
@@ -144,3 +146,8 @@ Uninstall an app (replace package.name with actual package)
 ```bash
 adb uninstall com.example.app
 ```
+
+
+---
+
+[🏠 Back to Home](https://kevin109.github.io/)
