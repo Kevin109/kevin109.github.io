@@ -54,3 +54,6 @@ Below are dedicated pages for each display. Each page summarizes configuration m
 
 - [More Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
 - [Embedded Board Overview](https://www.rocktech.com.hk/embedded-single-board-computers/)
+
+👉 Want to understand the fundamentals behind TFT technology?
+Check out this overview: [What is TFT LCD](https://tft-display.net/posts/what-is-tft-lcd/)?
