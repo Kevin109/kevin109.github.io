@@ -1,11 +1,11 @@
 ---
-title: "Rocktech TFT Display Configuration Files"
-seo_title: "Rocktech TFT Display Configuration Files"
+title: "TFT Display Configuration Files"
+seo_title: "TFT Display Configuration Files"
 description: "Browse Rocktech's open-source TFT display configuration files for embedded systems using Rockchip PX30, A64, and other ARM-based SBCs. Includes DTS, kernel drivers, and panel timing examples."
 ---
 
-# Rocktech TFT Display Configuration Files for Embedded SBCs
-This page provides pre-tested Device Tree Source (DTS) configurations for integrating Rocktech TFT LCD display modules with popular Rockchip-based Single Board Computers (SBCs), including RK3576, RK3566, RK3568, PX30, A33 and others. It aims to help embedded Linux and Android developers quickly bring up display interfaces in custom or commercial projects.
+# TFT Display Configuration Files for Embedded SBCs
+This page provides pre-tested Device Tree Source (DTS) configurations for integrating TFT LCD display modules with popular Rockchip-based Single Board Computers (SBCs), including RK3576, RK3566, RK3568, PX30, A33 and others. It aims to help embedded Linux and Android developers quickly bring up display interfaces in custom or commercial projects.
 
 ## ✨ Features
 
@@ -50,7 +50,7 @@ Below are dedicated pages for each display. Each page summarizes configuration m
 
 ---
 
-## 🔗 More from Rocktech
+## 🔗 More from TFT Display
 
-- [Rocktech Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
+- [More Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
 - [Embedded Board Overview](https://www.rocktech.com.hk/embedded-single-board-computers/)
