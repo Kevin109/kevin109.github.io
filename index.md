@@ -1,6 +1,6 @@
-# Rocktech Docs
+# TFT & SBC Integration Notes
 
-Welcome to the official documentation hub for Rocktech’s embedded display and SBC solutions. This site includes configuration guides, hardware integration tutorials, and performance optimization tips for our Rockchip-based SBCs and TFT LCD modules.
+Welcome to the official documentation hub for embedded display and SBC solutions. This site includes configuration guides, hardware integration tutorials, and performance optimization tips for our Rockchip-based SBCs and TFT LCD modules.
 
 ---
 

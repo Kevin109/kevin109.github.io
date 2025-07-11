@@ -1,5 +1,3 @@
-[🏠 Home](https://kevin109.github.io/)
-
 # How to Get the IP Address of Your SBC or Smart Device
 
 Knowing the IP address of your device is essential for wireless ADB debugging, SSH access, or connecting to local services. This guide provides two common methods to find the IP address of your Android-based device.

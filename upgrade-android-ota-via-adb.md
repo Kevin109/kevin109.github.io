@@ -1,5 +1,3 @@
-[🏠 Home](https://kevin109.github.io/)
-
 # Upgrade Android OTA File via ADB
 
 This guide explains how to upgrade an Android-based SBC (Smart Control Panel) using an OTA (update.zip) file via ADB.
