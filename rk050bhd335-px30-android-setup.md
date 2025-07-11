@@ -100,7 +100,7 @@ For production, a proper FPC-to-board adapter or integrated SBC design is necess
 
 * [Rocktech TFT Display Portfolio](https://www.rocktech.com.hk/industrial-tft-displays/)
 * [PX30 Embedded Board Overview](https://www.rocktech.com.hk/rockchip-px30-sbc/)
-* [GitHub Config Repo](https://github.com/Kevin109/rocktech-tft-display-configs/)
+* [Introduction to Embedded SBCs](https://embedded-sbc.com/posts/sbc-overview/)
 
 ---
 
