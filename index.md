@@ -10,34 +10,26 @@ Welcome to the official documentation hub for Rocktech’s embedded display and 
 
 Explore Rockchip-based SBC development tutorials, covering bootloader setup, UART access, OTA upgrades, and IP configuration.
 
----
-
-#### 🔌 [Set up ADB on Windows](https://kevin109.github.io/setup-adb-on-windows)  
+#### 🔌 [Set up ADB on Windows](/setup-adb-on-windows)  
 _Set up ADB for debugging and firmware updates over USB or Wi-Fi._
 
-Setting up ADB (Android Debug Bridge) on Windows is essential for working with Rockchip-based embedded Android systems.  
-This guide walks you through installation, environment setup, and common usage scenarios.
-
----
-
-#### 📦 [Upgrade Android OTA via ADB](https://kevin109.github.io/upgrade-android-ota-via-adb)  
+#### 📦 [Upgrade Android OTA via ADB](/upgrade-android-ota-via-adb)  
 _Install `update.zip` OTA packages directly from your PC._
 
-Learn how to push an OTA file to your Android device via ADB and trigger a system upgrade using broadcast commands.
-
----
-
-#### 🌐 [Find Device IP Address](https://kevin109.github.io/get-ip-of-SBC)  
+#### 🌐 [Find Device IP Address](/get-ip-of-SBC)  
 _Get your SBC or smart device IP for ADB over Wi-Fi or SSH._
-
-Includes two easy methods:  
-1. Using ADB shell + `ip addr`  
-2. Navigating Android Settings UI (via app icon, gestures, or system UI)
 
 ---
 
 ### 📺 TFT LCD Displays
+
 Learn how to configure and integrate TFT panels with embedded platforms, including LVDS/MIPI settings and optical bonding methods.
+
+#### 🧰 [Display Configuration Index](/github-display-config)  
+_View all Rocktech TFT panel configurations (DTS, drivers, overlays)._
+
+#### 🛠️ [RK050BHD335 + PX30 Integration Guide](/rk050bhd335-px30-android-setup)  
+_A hands-on tutorial showing how to drive a 5" MIPI display on PX30 SBC using fly-wire adapter._
 
 ---
 
@@ -48,7 +40,6 @@ Learn how to configure and integrate TFT panels with embedded platforms, includi
 - [Factory Overview](https://www.rocktech.com.hk/factory-overview/)
 
 ---
-
 
 ## 🛠 Contributions
 

@@ -12,7 +12,7 @@ Recently, I worked on a small integration project using the [Rocktech RK-Android
 
 Since the interface and pinout of the display did not directly match the SBC, I designed a quick adapter board using fly wires to get everything up and running under Android.
 
-![Hardware Setup](/rocktech-RK050BHD335-PX30.jpeg)
+![Hardware Setup](/images/rocktech-RK050BHD335-PX30.jpeg)
 
 ---
 
@@ -63,7 +63,7 @@ panel: panel {
 ```
 
 You can find the full configuration files and source code on GitHub:
-👉 [RK050BHD335 Display Config for PX30](/github-display-config)
+👉 [RK050BHD335 Display Config for PX30](/tft-config/RK050BHD335)
 
 ---
 
@@ -82,7 +82,7 @@ All issues were resolved through trial, datasheet review, and iterative kernel r
 
 After debugging and kernel rebuild, the RK050BHD335 panel powered on successfully with touch and Android UI running smoothly.
 
-![Working Android Display](/rocktech-RK050BHD335-PX30.jpeg)
+![Working Android Display](/images/rocktech-RK050BHD335-PX30.jpeg)
 
 ---
 
@@ -108,4 +108,5 @@ For production, a proper FPC-to-board adapter or integrated SBC design is necess
 
 This setup can be reused by others trying to integrate custom MIPI TFT panels with Rockchip PX30 or similar SoCs. If you're working with a different screen model, the same methodology applies: verify pin definitions, match power rails, adjust DTS and kernel sources, and validate with minimal hardware changes.
 
-I plan to document more boards and panels in the coming weeks. Feel free to follow the [GitHub repo](/github-display-config) for updates and future configurations.
+I plan to document more boards and panels in the coming weeks.  
+Feel free to follow the [Display Configuration Index](/github-display-config) for updates and new panel support.
