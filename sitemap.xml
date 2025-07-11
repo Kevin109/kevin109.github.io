@@ -3,27 +3,19 @@
   <url>
     <loc>https://kevin109.github.io</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://kevin109.github.io/setup-adb-on-windows</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/upgrade-android-ota-via-adb</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/get-ip-of-SBC</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/github-display-config</loc>
@@ -34,31 +26,21 @@
   <url>
     <loc>https://kevin109.github.io/tft-config/RK070CU01</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/tft-config/RK050HR18</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/tft-config/RK101HI34E</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/tft-config/RK050BHD335</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kevin109.github.io/rk050bhd335-px30-android-setup</loc>
     <lastmod>2025-07-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
