@@ -11,7 +11,7 @@ This page provides pre-tested Device Tree Source (DTS) configurations for integr
 ## ✨ Key Features
 
 * 📌 Ready-to-use `.dts` and `.dtsi` configuration files
-* 🧩 Supports Rocktech TFT LCD modules like RK050HR18, RK070CU01
+* 🧩 Supports TFT LCD modules like RK050HR18, RK070CU01
 * 🛠️ Compatible with Android and Linux kernel (4.19/5.10/5.15)
 * ✅ Validated on PX30, RK3566 SBC platforms
 * 🔧 Easily adaptable to custom SBC designs
@@ -120,6 +120,6 @@ Always use `dmesg`, `cat /proc/device-tree` and oscilloscope for debugging.
 
 If you’re looking for reliable, cost-effective embedded SBCs for your industrial, medical, or smart device applications, we invite you to explore the solutions available at Rocktech. Our expertise in ARM platforms, Android/Linux BSP customization, and embedded HMI integration helps companies accelerate time-to-market with minimal risk.
 
-👉 Explore Embedded SBC Solutions at <a href="https://www.rocktech.com.hk/embedded-single-board-computers/" target="_blank" rel="nofollow">Rocktech</a>
+👉  <a href="https://www.rocktech.com.hk/embedded-single-board-computers/" target="_blank" rel="nofollow">Explore Embedded SBC Solutions</a>
 
 > 🔁 For full context, this content is part of our open knowledge-sharing ecosystem. You can also check out [LVDS vs. MIPI TFT Displays](https://tft-display.net/posts/mipi-vs-lvds-displays/) for signal comparison.
