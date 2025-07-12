@@ -24,8 +24,8 @@ When developing a new product with a Rockchip SoC and TFT LCD, our team typicall
 2. Creates a breakout board for quick bring-up
 3. Uses these DTS configs to verify display output before finalizing the SBC design
 
-📂 **GitHub Source (nofollow):**  
-<a href="https://github.com/Kevin109/rocktech-tft-display-configs" rel="nofollow">Kevin109/rocktech-tft-display-configs</a>
+📂 **GitHub Source :**  
+<a href="https://github.com/Kevin109/rocktech-tft-display-configs" target="_blank" rel="nofollow">Kevin109/rocktech-tft-display-configs</a>
 
 ---
 
@@ -52,8 +52,7 @@ Below are dedicated pages for each display. Each page summarizes configuration m
 
 ## 🔗 More from TFT Display
 
-- [More Industrial TFT Displays](https://www.rocktech.com.hk/industrial-tft-displays/)
-- [Embedded Board Overview](https://www.rocktech.com.hk/embedded-single-board-computers/)
+- <a href="https://www.rocktech.com.hk/industrial-tft-displays" target="_blank" rel="nofollow">More Industrial TFT Displays</a>
 
 👉 Want to understand the fundamentals behind TFT technology?
 Check out this overview: [What is TFT LCD](https://tft-display.net/posts/what-is-tft-lcd/)?
