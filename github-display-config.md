@@ -110,7 +110,7 @@ Always use `dmesg`, `cat /proc/device-tree` and oscilloscope for debugging.
 
 ## 🔗 Further Reading & External Resources
 
-* <a href="https://www.rocktech.com.hk/industrial-tft-displays" target="_blank" rel="nofollow">More Industrial TFT Displays</a>
+* <a href="https://www.rocktech.com.hk/industrial-tft-displays/" target="_blank">More Industrial TFT Displays</a>
 * <a href="https://tft-display.net/posts/what-is-tft-lcd/" target="_blank" rel="dofollow">What is TFT LCD</a>
 * <a href="https://en.wikipedia.org/wiki/Device_tree" target="_blank" rel="nofollow">Wikipedia: Device Tree</a>
 
@@ -120,4 +120,4 @@ Always use `dmesg`, `cat /proc/device-tree` and oscilloscope for debugging.
 
 If you’re looking for reliable, cost-effective embedded SBCs for your industrial, medical, or smart device applications, we invite you to explore the solutions available at Rocktech. Our expertise in ARM platforms, Android/Linux BSP customization, and embedded HMI integration helps companies accelerate time-to-market with minimal risk.
 
-👉  <a href="https://www.rocktech.com.hk/embedded-single-board-computers/" target="_blank" rel="nofollow">Explore Embedded SBC Solutions</a>
+👉  <a href="https://www.rocktech.com.hk/embedded-single-board-computers/" target="_blank">Explore Embedded SBC Solutions</a>
