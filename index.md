@@ -19,6 +19,9 @@ _Install `update.zip` OTA packages directly from your PC._
 #### 🌐 [Find Device IP Address](/get-ip-of-SBC)  
 _Get your SBC or smart device IP for ADB over Wi-Fi or SSH._
 
+#### 🌐 [Customize a Single Board Computer](/how-to-customize-single-board-computer)  
+_Get your SBC or smart device IP for ADB over Wi-Fi or SSH._
+
 ---
 
 ### 📺 TFT LCD Displays
