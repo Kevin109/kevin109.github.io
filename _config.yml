@@ -1,6 +1,9 @@
 theme: null
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+
 defaults:
   - scope:
       path: ""
