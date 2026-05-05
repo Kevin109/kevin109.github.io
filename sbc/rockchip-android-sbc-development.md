@@ -17,7 +17,7 @@ Rockchip Android SBCs are widely used in embedded products that need a graphical
 
 Unlike a standard Android tablet or consumer device, a Rockchip Android SBC is usually designed for a specific product. The board may need to support a custom TFT LCD, capacitive touch panel, camera module, Wi-Fi/Bluetooth module, Ethernet, RS485, relay output, GPIO control, audio codec, and production test software. This means Android SBC development is not only application development. It also includes BSP customization, kernel driver work, Device Tree modification, hardware debugging, system optimization, and production validation.
 
-This guide explains the key areas involved in Rockchip Android SBC development for embedded products.
+This guide explains the key areas involved in Rockchip Android SBC development for [embedded system products](https://www.rocktech.com.hk/embedded-systems/).
 
 ## 1. What Is a Rockchip Android SBC?
 
