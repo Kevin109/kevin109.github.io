@@ -65,5 +65,5 @@ Suggested order:
 
 - [TFT Config Index](/tft-config/)
 - [SBC Guides](/sbc/)
-- [GitHub Display Config](/github-display-config/)
-- [RK050BHD335 PX30 Android Setup](/rk050bhd335-px30-android-setup/)
+- [GitHub Display Config](/github-display-config)
+- [RK050BHD335 PX30 Android Setup](/rk050bhd335-px30-android-setup)
