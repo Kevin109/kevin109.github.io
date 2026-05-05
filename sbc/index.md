@@ -43,13 +43,6 @@ The goal is to provide reusable references for engineers who work with custom SB
 {% endif %}
 
 {% if item.tags %}
-**Tags:**
-{% for tag in item.tags %}
-`{{ tag }}`
-{% endfor %}
-{% endif %}
-
-{% if item.tags %}
 <div class="post-tags">
   <span class="post-tags-label">Tags:</span>
   {% for tag in item.tags %}
