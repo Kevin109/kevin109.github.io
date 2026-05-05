@@ -49,6 +49,15 @@ The goal is to provide reusable references for engineers who work with custom SB
 {% endfor %}
 {% endif %}
 
+{% if item.tags %}
+<div class="post-tags">
+  <span class="post-tags-label">Tags:</span>
+  {% for tag in item.tags %}
+    <span class="post-tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+{% endif %}
+
 ---
 
 {% endunless %}
