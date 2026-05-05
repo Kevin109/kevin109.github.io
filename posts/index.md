@@ -27,11 +27,20 @@ This section collects practical engineering notes and tutorials for embedded SBC
 {{ post.description }}
 {% endif %}
 
-{% if post.tags %}
+<!-- {% if post.tags %}
 **Tags:** 
 {% for tag in post.tags %}
 `{{ tag }}`
 {% endfor %}
+{% endif %} -->
+
+{% if post.tags %}
+<div class="post-tags">
+  <span class="post-tags-label">Tags:</span>
+  {% for tag in post.tags %}
+    <span class="post-tag">{{ tag }}</span>
+  {% endfor %}
+</div>
 {% endif %}
 
 ---
