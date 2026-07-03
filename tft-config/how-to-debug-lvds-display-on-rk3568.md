@@ -44,6 +44,47 @@ Typical RK3568 LVDS debugging areas include panel timing, output interface, rout
 
 For a full RK3568 LVDS example, see [RK3568 LVDS Display Configuration Guide](/posts/rk3568-lvds-display-configuration/).
 
+## Symptom-Based Debugging
+
+Different LVDS symptoms usually point to different parts of the configuration.
+
+If the display is completely dark, start with panel power and backlight. LVDS data may be present, but the user will not see an image if the LED driver is disabled. Check the backlight voltage, enable GPIO, PWM signal, and default brightness level.
+
+If the backlight turns on but the image is blank, check whether the RK3568 display route is enabled. The LVDS output, panel node, VOP route, and backlight reference must all match. A disabled route can produce a lit panel with no valid image data.
+
+If the image appears but colors are wrong, check VESA versus JEIDA mapping and 6-bit versus 8-bit color. This is one of the most common LVDS bring-up mistakes. The panel may be electrically working, but the bit order does not match the panel input format.
+
+If the image is split, duplicated, or only half visible, check single-channel versus dual-channel LVDS. A dual-channel panel receiving single-channel data may show only partial or scrambled output.
+
+If the image flickers or shifts, check pixel clock, porch values, sync width, and signal integrity. Timing values copied from a different resolution are a frequent cause.
+
+## RK3568 Display Route Checklist
+
+On RK3568 systems, the final board design matters as much as the SoC capability. Confirm that the specific SBC actually routes LVDS to the LCD connector. Some boards expose HDMI or MIPI DSI but do not expose LVDS, even though the SoC family supports it.
+
+Use this checklist:
+
+1. Confirm LVDS pins are routed on the board.
+2. Confirm the LCD connector pinout matches the panel cable.
+3. Confirm panel power rails are present.
+4. Confirm backlight power is separate from panel logic power.
+5. Confirm the correct VOP output is routed to LVDS.
+6. Confirm the LVDS bridge or internal LVDS block is enabled.
+7. Confirm the panel timing is in the active panel node.
+8. Confirm the kernel log shows the panel driver probing.
+
+## Example Timing Review
+
+When reviewing timing, calculate the total line and frame size. For a 1024x600 panel, the visible area is only part of the full timing. The panel still needs front porch, sync width, and back porch. If the pixel clock is too low or too high for the total timing, the panel may refuse to lock.
+
+Do not only compare resolution. Two 1024x600 LVDS panels may use different clocks and porch values. If the display vendor provides typical, minimum, and maximum timing, start with the typical value.
+
+## Hardware Checks
+
+LVDS is differential, but it is not immune to board problems. Check pair routing, connector orientation, cable length, grounding, and whether the panel requires twisted-pair cable or a specific harness. On prototypes, reseating the cable and checking pin 1 orientation is still worth doing.
+
+For production, validate display behavior during cold boot, warm reboot, suspend/resume, brightness changes, and long-time aging. LVDS problems that only appear after temperature changes are usually hardware margin, power, or cable issues rather than simple Device Tree syntax.
+
 ## Related Guides
 
 - [Device Tree Panel Timing Explanation](/tft-config/device-tree-panel-timing-explanation/)

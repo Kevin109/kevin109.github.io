@@ -42,6 +42,65 @@ Related guides:
 - [PWM Backlight Configuration in Linux Device Tree](/tft-config/pwm-backlight-configuration-linux-device-tree/)
 - [Rockchip Android Display Rotation Configuration](/tft-config/rockchip-android-display-rotation-configuration/)
 
+## When RK3588 Is the Right Choice
+
+RK3588 is usually not selected only to drive a basic TFT LCD. It makes more sense when the product also needs high CPU performance, GPU capability, AI acceleration, camera input, video decode, PCIe, fast storage, or multiple displays.
+
+Good RK3588 display applications include:
+
+- AI terminals with local display
+- Medical imaging interfaces
+- Multi-screen control systems
+- Digital signage players
+- Edge gateways with HMI
+- High-resolution Android terminals
+- Camera preview and analysis devices
+
+If the product only needs a simple 7-inch HMI, RK3566 or RK3568 may be more economical.
+
+## Display Bandwidth and Resolution
+
+High-resolution displays create more system load. Confirm that the selected interface, display controller, memory bandwidth, and UI framework can handle the target resolution and refresh rate. A 4K HDMI display, an eDP panel, and an internal MIPI screen have different validation requirements.
+
+For Android, test launcher, WebView, video playback, and application animation at the final resolution. For Linux, test the compositor or rendering path that the product will actually use.
+
+## Thermal and Power Considerations
+
+RK3588 products can run heavier workloads than lower-end SBCs. Display brightness, GPU load, video decode, AI inference, and enclosure temperature should be tested together. A product may pass display bring-up on an open bench but throttle in a sealed enclosure.
+
+Thermal validation should include:
+
+- Full brightness
+- Maximum expected application load
+- Network activity
+- Storage activity
+- Ambient temperature range
+- Long-time operation
+
+## Production Validation
+
+Multi-display and high-performance products need careful production testing. Verify each display output, touch mapping, audio/video sync if relevant, recovery UI, OTA update behavior, and fallback when one display is disconnected.
+
+For products with external HDMI or eDP, test hotplug behavior. For internal panels, test cable stability and boot behavior after sudden power loss.
+
+## Android Versus Linux on RK3588
+
+Android is useful when the product needs a polished touch interface, media playback, WebView, app lifecycle management, or kiosk behavior. Linux is useful when the product needs service control, containerized workloads, custom networking, industrial protocols, or direct access to hardware.
+
+For display-heavy Android products, test graphics performance with the real application, not only the launcher. For Linux products, validate the graphics stack that will ship. A demo image may use a different compositor or acceleration path than the production system.
+
+## Camera and Display Interaction
+
+Many RK3588 products combine display with camera input or AI processing. Camera preview, video decode, AI inference, and display composition compete for memory bandwidth and thermal budget. Test these workloads together. A display that works during idle may drop frames or become unstable when the full product workload runs.
+
+## Cost Control
+
+RK3588 can be more than a simple HMI needs. If the display is only a 7-inch control screen and the application is light, compare RK3566 or RK3568 first. Use RK3588 when the additional performance, I/O, or multimedia capability is actually needed.
+
+## Integration Handoff
+
+For RK3588 projects, the display engineer, application engineer, and mechanical engineer should agree on resolution, orientation, cable path, thermal limit, and expected workload early. High-performance boards often fail late because each subsystem was tested alone. The final validation should run the real application, display, camera, network, and storage workload together in the enclosure.
+
 ## Related Guides
 
 - [Rockchip Android SBC Development Guide](/sbc/rockchip-android-sbc-development/)

@@ -53,6 +53,52 @@ Wrong lane count can cause black screen, unstable image, flicker, partial image,
 
 Related guide: [How to Fix Black Screen on MIPI DSI Display](/tft-config/how-to-fix-black-screen-on-mipi-dsi-display/).
 
+## Bandwidth Estimation
+
+A simple bandwidth estimate starts with active pixels, refresh rate, and bits per pixel. A 720x1280 panel at 60 Hz with RGB888 needs much more bandwidth than an 800x480 panel at the same refresh rate. Real DSI bandwidth also includes blanking intervals, protocol overhead, and the selected mode.
+
+Basic active video data estimate:
+
+```text
+active bandwidth = width x height x refresh rate x bits per pixel
+```
+
+For RGB888, use 24 bits per pixel. For RGB666, use 18 bits per pixel. This calculation is only a starting point. The final lane rate must include total timing and DSI overhead. If the calculated value is already close to the host limit, choose more lanes or reduce refresh rate if the panel allows it.
+
+## 1-Lane MIPI DSI
+
+One lane is suitable for small panels where bandwidth is low and connector simplicity is important. It can work for compact displays used in handheld devices, small controllers, and simple information screens.
+
+Use 1 lane only when the panel datasheet or vendor driver confirms it. Do not force a higher-resolution panel into 1-lane mode unless the panel supports the required lower data rate.
+
+## 2-Lane MIPI DSI
+
+Two lanes are common in embedded products because they balance bandwidth and routing complexity. Many 5-inch and some 7-inch panels use 2-lane DSI, especially at moderate resolutions and refresh rates.
+
+Two lanes are often practical for compact Android panels where board space matters. Still, confirm that the SoC, connector, and panel all use the same lane count.
+
+## 4-Lane MIPI DSI
+
+Four lanes are used when the display requires higher bandwidth. Portrait panels such as 720x1280 or larger high-density panels often need 4 lanes, depending on refresh rate and pixel format.
+
+Four lanes increase routing effort. The PCB layout should keep differential pairs controlled, matched, short, and clean. On a prototype, long fly wires can make a correct software configuration fail.
+
+## Software Configuration
+
+Lane count may appear in the panel driver, Device Tree, vendor display configuration, or DSI host setup. Make sure all layers agree. A panel driver configured for 4 lanes and a board file configured for 2 lanes can produce confusing failures.
+
+Also confirm pixel format. RGB565, RGB666, and RGB888 change the required bandwidth. If the panel expects RGB888 but the host sends a different format, the image may show wrong colors or fail to display.
+
+## Selection Checklist
+
+1. Start with the panel datasheet.
+2. Confirm the SBC exposes enough DSI lanes.
+3. Estimate bandwidth from resolution, refresh rate, and pixel format.
+4. Confirm the panel vendor reference driver lane count.
+5. Check connector pinout and lane order.
+6. Review PCB routing constraints.
+7. Test with production-length cable, not only a short bench setup.
+
 ## Related Guides
 
 - [MIPI vs LVDS vs RGB Display Interface](/posts/mipi-vs-lvds-vs-rgb-display-interface/)

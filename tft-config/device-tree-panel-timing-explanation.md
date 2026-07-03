@@ -59,6 +59,64 @@ Use the panel datasheet as the reference. Do not calculate a new timing unless t
 - Forgetting dual-channel LVDS bandwidth
 - Changing refresh rate without checking panel limits
 
+## Reading a Datasheet Timing Table
+
+Most LCD datasheets provide a timing table with typical, minimum, and maximum values. The typical values are the safest starting point. Minimum and maximum values are allowed ranges, not recommended values for every design.
+
+For each field, map the datasheet name to the Device Tree field. Datasheets may use names such as HFP, HBP, HPW, VFP, VBP, VPW, DCLK, PCLK, or DOTCLK. The names vary by vendor, but the meaning is consistent: active pixels plus blanking intervals produce a full frame.
+
+If the datasheet provides a total horizontal period and active horizontal pixels, the remaining values are distributed across front porch, sync width, and back porch. Do not guess this distribution if the table provides exact numbers.
+
+## Example Review Process
+
+When adding a new panel, create a simple timing review note:
+
+```text
+Resolution: 1024 x 600
+Pixel clock: from datasheet typical value
+Horizontal: active + front porch + sync + back porch
+Vertical: active + front porch + sync + back porch
+Refresh: confirm calculated result is close to expected value
+Polarity: match datasheet
+```
+
+This makes it easier to catch mistakes before booting the board. A single swapped porch value may still produce a mode, but the panel may not lock correctly.
+
+## Timing and Interface Type
+
+RGB panels depend heavily on DE, sync, and pixel clock edge because the display bus directly carries parallel pixel data.
+
+LVDS panels also need correct timing, but additional details such as VESA or JEIDA mapping and channel count matter.
+
+MIPI DSI video mode uses timing too, but MIPI panels may also need initialization commands. A correct timing table alone is not enough if the panel remains in sleep mode.
+
+## Debugging Timing Problems
+
+Timing problems often look like:
+
+- Shifted image
+- Rolling image
+- Flickering image
+- No image with backlight on
+- Wrong refresh rate
+- Image appears only at some temperatures
+
+When debugging, change only one timing group at a time. If the panel vendor provides a working Linux or Android example, compare the numbers exactly. If the SoC clock framework rounds the pixel clock, check the actual clock reported in logs.
+
+## Production Considerations
+
+For production, timing should be validated across multiple panel samples and temperature conditions. Some panels tolerate loose timing on the bench but fail after long operation or at low temperature. Keep the final timing values documented with the panel part number and revision.
+
+## Relationship With Backlight and Touch
+
+Panel timing only controls how pixel data is sent to the LCD. It does not enable the LED backlight and it does not configure the touch panel. This matters because engineers sometimes change timing values while the real issue is a disabled backlight or wrong touch orientation.
+
+Bring up the display in layers. First confirm power and reset. Then confirm panel timing and image output. Then enable backlight brightness control. Finally add touch input and rotation. This order makes failures easier to isolate.
+
+## Version Control Advice
+
+When working with multiple panels, avoid editing one shared timing node without recording which product uses it. Give each panel a clear compatible string or configuration file. A later copy-paste change for one LCD should not silently change another product.
+
 ## Related Guides
 
 - [How to Debug LVDS Display on RK3568](/tft-config/how-to-debug-lvds-display-on-rk3568/)
