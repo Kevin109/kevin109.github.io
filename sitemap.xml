@@ -9,8 +9,7 @@ sitemap: false
 {% for item in sitemap_pages %}
 {% if item.url == "/" or item.url == "/sbc/" or item.url == "/tft-config/" or item.url == "/posts/" or item.url contains ".html" %}
   <url>
-    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
-    <lastmod>{{ item.date | default: site.time | date_to_xmlschema }}</lastmod>
+    <loc>{{ item.url | absolute_url }}</loc>
   </url>
 {% endif %}
 {% endfor %}
