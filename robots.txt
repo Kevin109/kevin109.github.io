@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://kevin109.github.io/sitemap.xml
+Sitemap: https://kevin109.github.io/sitemap.txt

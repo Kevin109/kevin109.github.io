@@ -1,0 +1,17 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign sitemap_pages = site.pages | where_exp: "item", "item.sitemap != false" | sort: "url" %}
+{% for item in sitemap_pages %}
+{% if item.url == "/" or item.url == "/sbc/" or item.url == "/tft-config/" or item.url == "/posts/" or item.url contains ".html" %}
+  <url>
+    <loc>{{ item.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ item.date | default: site.time | date_to_xmlschema }}</lastmod>
+  </url>
+{% endif %}
+{% endfor %}
+</urlset>

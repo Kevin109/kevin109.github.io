@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /sitemap.txt
+---
+{% assign sitemap_pages = site.pages | where_exp: "item", "item.sitemap != false" %}
+{% for item in sitemap_pages %}{% if item.url contains ".html" or item.url == "/" or item.url == "/sbc/" or item.url == "/tft-config/" or item.url == "/posts/" %}{{ item.url | absolute_url }}
+{% endif %}{% endfor %}

@@ -7,9 +7,6 @@ title: "TFT & SBC Integration Notes"
 description: "Technical notes for TFT display configuration, Rockchip SBC development, Linux LCD debugging, and Android embedded board integration."
 
 
-plugins:
-  - jekyll-sitemap
-
 defaults:
   - scope:
       path: ""
