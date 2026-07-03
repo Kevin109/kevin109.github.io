@@ -13,7 +13,7 @@ interface: "MIPI DSI, LVDS, HDMI, Ethernet, USB, UART, I2C, SPI, GPIO"
 
 # RK3566 Android SBC Overview for Embedded HMI and Smart Terminal Development
 
-Rockchip RK3566 is a practical ARM-based SoC widely used in Android SBCs, Linux SBCs, smart display terminals, embedded HMI panels, IoT gateways, and commercial control devices. It is positioned as a mid-range processor that offers a good balance between cost, performance, multimedia capability, display support, and power consumption.
+Rockchip RK3566 is a practical ARM-based SoC widely used in [Android SBCs](https://www.avontek.com/android-sbc/), Linux SBCs, smart display terminals, embedded HMI panels, IoT gateways, and commercial control devices. It is positioned as a mid-range processor that offers a good balance between cost, performance, multimedia capability, display support, and power consumption.
 
 For many embedded products, RK3566 is attractive because it provides enough performance for touchscreen interfaces, Android applications, network communication, video playback, basic edge processing, and general embedded control. It is not as high-end as RK3588, but it is much more cost-effective for products that do not require heavy AI processing or multi-camera workloads.
 
