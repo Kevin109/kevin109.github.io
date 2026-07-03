@@ -1,16 +1,120 @@
----
-layout: null
-permalink: /sitemap.xml
-sitemap: false
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-{% assign sitemap_pages = site.pages | where_exp: "item", "item.sitemap != false" | sort: "url" %}
-{% for item in sitemap_pages %}
-{% if item.url == "/" or item.url == "/sbc/" or item.url == "/tft-config/" or item.url == "/posts/" or item.url contains ".html" %}
   <url>
-    <loc>{{ item.url | absolute_url }}</loc>
+    <loc>https://kevin109.github.io/</loc>
   </url>
-{% endif %}
-{% endfor %}
+  <url>
+    <loc>https://kevin109.github.io/get-ip-of-SBC.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/github-display-config.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/how-to-customize-single-board-computer.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/5-inch-vs-7-inch-tft-display-for-hmi.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/android-sbc-vs-linux-sbc-for-industrial-display.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/how-to-choose-tft-lcd-for-embedded-linux.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/how-to-debug-linux-lcd-backlight.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/mipi-vs-lvds-vs-rgb-display-interface.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/px30-mipi-display-debugging.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/rk3566-vs-rk3568-for-embedded-hmi.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/posts/rk3568-lvds-display-configuration.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/rk050bhd335-px30-android-setup.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/allwinner-a64-rgb-lcd-configuration.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/android-sbc-adb-device-not-found.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/px30-android-sbc-display-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rk3566-android-sbc-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rk3566-android-sbc-overview.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rk3568-lvds-mipi-display-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rk3576-display-configuration-guide.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rk3588-embedded-display-integration.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/sbc/rockchip-android-sbc-development.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/setup-adb-on-windows.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/RK035SHV235.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/RK050BHD335.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/RK050HR18.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/RK070CU01.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/RK101HI34E.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/device-tree-panel-timing-explanation.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/how-to-choose-mipi-dsi-lanes-for-tft-lcd.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/how-to-debug-lvds-display-on-rk3568.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/how-to-fix-black-screen-on-mipi-dsi-display.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/lcd-backlight-turns-on-but-no-image.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/pwm-backlight-configuration-linux-device-tree.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/tft-config/rockchip-android-display-rotation-configuration.html</loc>
+  </url>
+  <url>
+    <loc>https://kevin109.github.io/upgrade-android-ota-via-adb.html</loc>
+  </url>
 </urlset>
