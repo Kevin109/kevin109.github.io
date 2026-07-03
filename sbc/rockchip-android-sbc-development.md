@@ -27,11 +27,11 @@ A Rockchip Android SBC is a single-board computer based on a Rockchip ARM SoC an
 
 Common Rockchip platforms used for Android SBC development include:
 
-- PX30
-- RK3566
-- RK3568
-- RK3576
-- RK3588
+- [PX30](/sbc/px30-android-sbc-display-guide/)
+- [RK3566](/sbc/rk3566-android-sbc-guide/)
+- [RK3568](/sbc/rk3568-lvds-mipi-display-guide/)
+- [RK3576](/sbc/rk3576-display-configuration-guide/)
+- [RK3588](/sbc/rk3588-embedded-display-integration/)
 
 Each platform targets different product levels. PX30 is suitable for compact and cost-sensitive control panels. RK3566 is often used in Android smart terminals and HMI panels. RK3568 is suitable for industrial SBCs and gateways. RK3576 provides more performance for edge HMI and newer Android products. RK3588 is used for high-performance Android terminals, AI edge devices, and multi-display systems.
 

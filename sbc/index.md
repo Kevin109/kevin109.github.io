@@ -83,6 +83,16 @@ These guides are not intended to replace the official BSP documentation. Instead
 - [RK3566 vs RK3568 for Embedded HMI Products](/posts/rk3566-vs-rk3568-for-embedded-hmi/)
 - [How to Choose a TFT LCD for Embedded Linux Projects](/posts/how-to-choose-tft-lcd-for-embedded-linux/)
 
+## Chip and Board Platform Guides
+
+- [PX30 Android SBC Display Guide](/sbc/px30-android-sbc-display-guide/)
+- [RK3566 Android SBC Guide](/sbc/rk3566-android-sbc-guide/)
+- [RK3568 LVDS and MIPI Display Guide](/sbc/rk3568-lvds-mipi-display-guide/)
+- [RK3576 Display Configuration Guide](/sbc/rk3576-display-configuration-guide/)
+- [RK3588 Embedded Display Integration](/sbc/rk3588-embedded-display-integration/)
+- [Allwinner A64 RGB LCD Configuration](/sbc/allwinner-a64-rgb-lcd-configuration/)
+- [Android SBC ADB Device Not Found](/sbc/android-sbc-adb-device-not-found/)
+
 ## Common SBC Development Topics
 
 ### Board Bring-Up

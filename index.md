@@ -53,6 +53,16 @@ These guides help engineers choose display interfaces, TFT panel sizes, and SBC 
 
 ---
 
+## Troubleshooting and Platform Guides
+
+- [How to Fix Black Screen on MIPI DSI Display](/tft-config/how-to-fix-black-screen-on-mipi-dsi-display/)
+- [LCD Backlight Turns On but No Image](/tft-config/lcd-backlight-turns-on-but-no-image/)
+- [Android SBC ADB Device Not Found](/sbc/android-sbc-adb-device-not-found/)
+- [PX30 Android SBC Display Guide](/sbc/px30-android-sbc-display-guide/)
+- [RK3588 Embedded Display Integration](/sbc/rk3588-embedded-display-integration/)
+
+---
+
 ## 🧰 Resources
 
 - [GitHub Repository](https://github.com/Kevin109/rocktech-tft-display-configs)

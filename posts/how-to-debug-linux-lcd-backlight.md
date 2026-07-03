@@ -11,6 +11,8 @@ tags: [Linux, LCD Backlight, TFT LCD, Device Tree, PWM, GPIO, Embedded SBC, Rock
 
 LCD backlight problems are common when bringing up a new TFT display on an embedded Linux SBC. The LCD panel may be correctly connected, the display controller may already output a valid image, and the framebuffer or DRM pipeline may be active, but the screen still appears black because the backlight is not enabled.
 
+If the backlight is enabled but the LCD still shows no image, use [LCD Backlight Turns On but No Image](/tft-config/lcd-backlight-turns-on-but-no-image/) to continue debugging the display data path.
+
 For embedded Linux developers, this can be confusing at first. A black screen does not always mean the display interface is not working. It may simply mean that the LCD panel is displaying an image without illumination. This is especially common when using LVDS, RGB, MIPI DSI, or eDP TFT panels on Rockchip, NXP, Allwinner, TI, or other ARM-based SBC platforms.
 
 This guide explains a practical debugging process for Linux LCD backlight problems, including hardware checks, device tree configuration, PWM control, GPIO enable pins, sysfs testing, and common mistakes during display bring-up.

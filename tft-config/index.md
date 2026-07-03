@@ -103,6 +103,16 @@ When integrating a TFT LCD with an embedded SBC, engineers should verify both ha
 13. Validate display stability under long-time operation.
 14. Test the final enclosure for EMI, grounding, and thermal behavior.
 
+## Problem Solving Guides
+
+- [How to Fix Black Screen on MIPI DSI Display](/tft-config/how-to-fix-black-screen-on-mipi-dsi-display/)
+- [How to Debug LVDS Display on RK3568](/tft-config/how-to-debug-lvds-display-on-rk3568/)
+- [LCD Backlight Turns On but No Image](/tft-config/lcd-backlight-turns-on-but-no-image/)
+- [How to Choose MIPI DSI Lanes for TFT LCD](/tft-config/how-to-choose-mipi-dsi-lanes-for-tft-lcd/)
+- [Device Tree Panel Timing Explanation](/tft-config/device-tree-panel-timing-explanation/)
+- [PWM Backlight Configuration in Linux Device Tree](/tft-config/pwm-backlight-configuration-linux-device-tree/)
+- [Rockchip Android Display Rotation Configuration](/tft-config/rockchip-android-display-rotation-configuration/)
+
 ## Related Technical Posts
 
 - [MIPI vs LVDS vs RGB Display Interface](/posts/mipi-vs-lvds-vs-rgb-display-interface/)

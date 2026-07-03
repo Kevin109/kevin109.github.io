@@ -11,6 +11,8 @@ tags: [PX30, Rockchip, MIPI DSI, TFT LCD, Display Debugging, Device Tree, Androi
 
 Rockchip PX30 is a compact and power-efficient ARM SoC that is often used in smart home panels, room controllers, small HMI terminals, access control devices, and embedded display products. Many PX30-based boards use MIPI DSI displays because MIPI DSI provides a compact high-speed display interface with fewer signal lines than RGB and a cleaner connector structure than many parallel display solutions.
 
+For a broader platform view, see the [PX30 Android SBC Display Guide](/sbc/px30-android-sbc-display-guide/). If the panel stays black, also review [How to Fix Black Screen on MIPI DSI Display](/tft-config/how-to-fix-black-screen-on-mipi-dsi-display/).
+
 However, MIPI DSI display bring-up can be more complex than simple RGB or LVDS panels. A screen may stay black even when the system boots correctly. The backlight may turn on without image. The panel may show a white screen, unstable colors, flicker, or only display during U-Boot but fail after Linux or Android starts. These problems can be caused by hardware wiring, panel power sequence, reset timing, DSI lane configuration, display timing, initialization commands, backlight control, or Device Tree configuration.
 
 This guide explains a practical debugging process for PX30 MIPI display problems on embedded Linux and Android SBCs.
