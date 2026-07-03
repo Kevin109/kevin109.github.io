@@ -55,11 +55,18 @@ If you are new to TFT display configuration on embedded SBCs, start with the bac
 
 Suggested order:
 
-1. Linux LCD backlight debugging
-2. Device Tree panel node basics
-3. LVDS, MIPI DSI, RGB, and eDP interface selection
-4. Rockchip display configuration examples
-5. Specific TFT module setup guides
+1. [MIPI vs LVDS vs RGB display interface](/posts/mipi-vs-lvds-vs-rgb-display-interface/)
+2. [How to choose a TFT LCD for embedded Linux](/posts/how-to-choose-tft-lcd-for-embedded-linux/)
+3. [Linux LCD backlight debugging](/posts/how-to-debug-linux-lcd-backlight/)
+4. Device Tree panel node basics
+5. Rockchip display configuration examples
+6. Specific TFT module setup guides
+
+## Selection Guides
+
+- [5 Inch vs 7 Inch TFT Display for HMI Products](/posts/5-inch-vs-7-inch-tft-display-for-hmi/)
+- [Android SBC vs Linux SBC for Industrial Display Products](/posts/android-sbc-vs-linux-sbc-for-industrial-display/)
+- [RK3566 vs RK3568 for Embedded HMI Products](/posts/rk3566-vs-rk3568-for-embedded-hmi/)
 
 ## Related Sections
 

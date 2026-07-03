@@ -17,6 +17,8 @@ Rockchip RK3566 is a practical ARM-based SoC widely used in Android SBCs, Linux 
 
 For many embedded products, RK3566 is attractive because it provides enough performance for touchscreen interfaces, Android applications, network communication, video playback, basic edge processing, and general embedded control. It is not as high-end as RK3588, but it is much more cost-effective for products that do not require heavy AI processing or multi-camera workloads.
 
+If the product may need more industrial interfaces or a more complex HMI role, compare the platform tradeoffs in [RK3566 vs RK3568 for Embedded HMI Products](/posts/rk3566-vs-rk3568-for-embedded-hmi/).
+
 An RK3566 Android SBC can be used as the core board for products such as smart home control panels, access control terminals, industrial HMI devices, medical touch terminals, retail kiosks, digital signage players, EV charger displays, and smart appliance interfaces. With the right display, touch panel, enclosure, and software stack, RK3566 can provide a stable hardware foundation for many screen-based embedded products.
 
 ## 1. What Is RK3566?

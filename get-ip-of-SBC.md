@@ -1,3 +1,10 @@
+---
+title: "How to Get the IP Address of Your SBC or Smart Device"
+description: "Find the IP address of an Android SBC or smart device using ADB shell, Android Wi-Fi settings, or Ethernet network settings for wireless debugging and SSH access."
+date: 2025-07-11
+keywords: ["SBC IP address", "Android SBC", "ADB Wi-Fi", "SSH", "Rockchip SBC"]
+---
+
 # How to Get the IP Address of Your SBC or Smart Device
 
 Knowing the IP address of your device is essential for wireless ADB debugging, SSH access, or connecting to local services. This guide provides two common methods to find the IP address of your Android-based device.

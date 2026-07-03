@@ -1,3 +1,8 @@
+---
+title: "TFT & SBC Integration Notes"
+description: "Technical notes for TFT display configuration, Rockchip SBC development, Linux LCD debugging, Android OTA updates, ADB setup, and embedded board integration."
+---
+
 # TFT & SBC Integration Notes
 
 Welcome to the official documentation hub for embedded display and SBC solutions. This site includes configuration guides, hardware integration tutorials, and performance optimization tips for our Rockchip-based SBCs and TFT LCD modules.
@@ -33,6 +38,18 @@ _View all Rocktech TFT panel configurations (DTS, drivers, overlays)._
 
 #### 🛠️ [RK050BHD335 + PX30 Integration Guide](/rk050bhd335-px30-android-setup)  
 _A hands-on tutorial showing how to drive a 5" MIPI display on PX30 SBC using fly-wire adapter._
+
+---
+
+## Selection Guides
+
+These guides help engineers choose display interfaces, TFT panel sizes, and SBC platforms before starting hardware integration.
+
+- [MIPI vs LVDS vs RGB Display Interface](/posts/mipi-vs-lvds-vs-rgb-display-interface/)
+- [How to Choose a TFT LCD for Embedded Linux Projects](/posts/how-to-choose-tft-lcd-for-embedded-linux/)
+- [5 Inch vs 7 Inch TFT Display for HMI Products](/posts/5-inch-vs-7-inch-tft-display-for-hmi/)
+- [Android SBC vs Linux SBC for Industrial Display Products](/posts/android-sbc-vs-linux-sbc-for-industrial-display/)
+- [RK3566 vs RK3568 for Embedded HMI Products](/posts/rk3566-vs-rk3568-for-embedded-hmi/)
 
 ---
 

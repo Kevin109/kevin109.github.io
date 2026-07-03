@@ -13,6 +13,8 @@ Rockchip RK3568 is widely used in industrial SBCs, Android HMI panels, Linux gat
 
 Compared with HDMI or eDP, LVDS is often used for internal panel connections. Compared with MIPI DSI, LVDS is easier to work with in some industrial display projects because many 7-inch, 10.1-inch, 12.1-inch, and 15.6-inch TFT LCD modules provide LVDS input. For RK3568-based SBCs, LVDS is a practical choice when the product needs a reliable built-in display for HMI, control, monitoring, or data visualization.
 
+If you are still choosing between panel interfaces, start with the [MIPI vs LVDS vs RGB display interface comparison](/posts/mipi-vs-lvds-vs-rgb-display-interface/) before finalizing the LCD and SBC connector design.
+
 This guide explains how to configure an LVDS display on RK3568-based Linux and Android SBC platforms. It covers panel timing, Device Tree configuration, LVDS channel setup, backlight control, power sequence, touch panel integration, and common debugging methods.
 
 ## 1. Understand the RK3568 Display Pipeline

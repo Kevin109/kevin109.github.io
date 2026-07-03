@@ -77,6 +77,12 @@ This section is designed to collect practical guides related to:
 
 These guides are not intended to replace the official BSP documentation. Instead, they provide practical engineering notes that are easier to reference during real board development.
 
+## Platform Selection Guides
+
+- [Android SBC vs Linux SBC for Industrial Display Products](/posts/android-sbc-vs-linux-sbc-for-industrial-display/)
+- [RK3566 vs RK3568 for Embedded HMI Products](/posts/rk3566-vs-rk3568-for-embedded-hmi/)
+- [How to Choose a TFT LCD for Embedded Linux Projects](/posts/how-to-choose-tft-lcd-for-embedded-linux/)
+
 ## Common SBC Development Topics
 
 ### Board Bring-Up

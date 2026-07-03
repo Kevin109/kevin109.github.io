@@ -105,6 +105,9 @@ When integrating a TFT LCD with an embedded SBC, engineers should verify both ha
 
 ## Related Technical Posts
 
+- [MIPI vs LVDS vs RGB Display Interface](/posts/mipi-vs-lvds-vs-rgb-display-interface/)
+- [How to Choose a TFT LCD for Embedded Linux Projects](/posts/how-to-choose-tft-lcd-for-embedded-linux/)
+- [5 Inch vs 7 Inch TFT Display for HMI Products](/posts/5-inch-vs-7-inch-tft-display-for-hmi/)
 - [How to Debug Linux LCD Backlight Problems on Embedded SBCs](/posts/how-to-debug-linux-lcd-backlight/)
 - [GitHub Display Config](/github-display-config)
 - [RK050BHD335 PX30 Android Setup](/rk050bhd335-px30-android-setup)

@@ -1,3 +1,10 @@
+---
+title: "Upgrade Android OTA File via ADB"
+description: "Step-by-step guide for upgrading an Android-based SBC or smart control panel with an OTA update.zip file using ADB push and broadcast commands."
+date: 2025-07-11
+keywords: ["Android OTA", "ADB", "update.zip", "Android SBC", "Rockchip SBC"]
+---
+
 # Upgrade Android OTA File via ADB
 
 This guide explains how to upgrade an Android-based SBC (Smart Control Panel) using an OTA (update.zip) file via ADB.
